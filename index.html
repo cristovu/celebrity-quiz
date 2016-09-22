@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Harry Potter Quiz</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Harry Potter Quiz</h1>
+      </div>
+      <div>
+        <h2>Answer a few short questions, and we will tell you which <em>Harry Potter</em> character you are!</h2>
+      </div>
+      <form>
+        <div class= "form-group">
+          <label for="name">enter your name right here</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class= "form-group">
+          <label for="age">enter your age right here</label>
+          <input id="age" class="form-control" type="text">
+        </div>
+        <div class= "form-group">
+          <label for="food">enter your favorite food</label>
+          <input id="food" class="form-control" type="text">
+        </div>
+      </form>
+      <h4> if you had to choose one of the following animals which would <strong>YOU</strong> choose?</h4>
+      <select class="form-control" id="animals">
+        <option value="blank"></option>
+        <option value="owl">Owl</option>
+        <option value="snake">Snake</option>
+        <option value="bird">Bird</option>
+        <option value="rat">Rat</option>
+      </select>
+      <br>
+      <h4>pick a house</h4>
+      <div class="radio">
+      <label>
+        <input type="radio" name="house" value="hufflepuff" checked>
+        Hufflepuff
+      </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="house" value="gryffindor">
+          Gryffindor
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="house" value="slytherin">
+          Slytherin
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="house" value="ravenclaw">
+          Ravenclaw
+        </label>
+      </div>
 
+    </div>
   </body>
 </html>
